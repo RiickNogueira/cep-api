@@ -1,13 +1,13 @@
 # CEP-API
 
-## _Buscador de CEPs_
+## _Buscador de CEP_
 
 ## Requisitos
 
 | Requisito | Link para download                                                  |
 | --------- | ------------------------------------------------------------------- |
-| JDK 11      | [https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html](https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html). |
-| Maven 3    | [https://maven.apache.org/download.cgi/](https://maven.apache.org/download.cgi). |
+| JDK 11      | https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html |
+| Maven 3    | https://maven.apache.org/download.cgi |
 
 ## Instalação e execução
 
@@ -17,8 +17,14 @@ Faça download do projeto e execute o seguinte comandos na raiz
 mvn spring-boot:run
 ```
 
-_A API rodará na porta 3000. http://localhost:3000_
+_A API rodará na porta 3000. http://localhost:3000/api_
 
 ## Swagger UI
 
-Acesse a documentação da API [clicando aqui](https://localhost:3000/swagger-ui.html).
+Acesse a documentação da API [clicando aqui](https://localhost:3000/api/swagger-ui.html).
+
+## Flyway
+
+Foi realizada uma carga inicial no banco. Para visualizar os pedidos acesse a rota http://localhost:3000/api/pedido
+
+

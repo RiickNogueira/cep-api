@@ -20,12 +20,12 @@ public class SwaggerConfig {
 	@Bean
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2).select()
-				.apis(RequestHandlerSelectors.basePackage("com.richardson.springbootapi")).paths(PathSelectors.any())
+				.apis(RequestHandlerSelectors.basePackage("com.richardson.cepapi")).paths(PathSelectors.any())
 				.build().apiInfo(apiInfo());
 	}
 
 	private ApiInfo apiInfo() {
-		return new ApiInfo("Spring Boot Api", "REST API com Spring Boot 2.1.3.", "v1", "Terms Of Service Url",
+		return new ApiInfo("CEP API", "REST API com Spring Boot 2.1.3.", "v1", "Terms Of Service Url",
 				new Contact("Richardson Nogueira", "https://www.linkedin.com/in/richardson-nogueira/",
 						"richardsonogueira@gmail.com"),
 				"License of API", "License of URL", Collections.emptyList());

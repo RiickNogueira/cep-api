@@ -1,0 +1,3 @@
+CREATE TABLE pedidos (
+  id VARCHAR(6) NOT NULL,
+  PRIMARY KEY (id));

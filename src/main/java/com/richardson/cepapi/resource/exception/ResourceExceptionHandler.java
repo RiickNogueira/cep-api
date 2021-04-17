@@ -1,5 +1,7 @@
 package com.richardson.cepapi.resource.exception;
 
+import java.io.IOException;
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.dao.DataIntegrityViolationException;
@@ -43,5 +45,4 @@ public class ResourceExceptionHandler extends ResponseEntityExceptionHandler {
 				"Objeto não encontrado", e.getMessage(), request.getRequestURI());
 		return ResponseEntity.status(HttpStatus.NOT_FOUND).body(err);
 	}
-
 }
