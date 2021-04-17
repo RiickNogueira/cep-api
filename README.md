@@ -21,7 +21,7 @@ _A API rodará na porta 3000. http://localhost:3000/api_
 
 ## Swagger UI
 
-Acesse a documentação da API [clicando aqui](https://localhost:3000/api/swagger-ui.html).
+Acesse a documentação da API [clicando aqui](http://localhost:3000/api/swagger-ui.html).
 
 ## Flyway
 
